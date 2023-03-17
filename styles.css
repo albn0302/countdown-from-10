@@ -1,0 +1,36 @@
+/* Resets the page default style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Enables flex-box */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Adds a nice font and color to the text */
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+
+    /* Re-colors the background */
+    background-color: rgb(40, 40, 40);
+}
+
+h1 {
+    /* Aligns the header properly */
+    position: absolute;
+
+    /* Adds a linear gradient to the text */
+    background: -webkit-linear-gradient(45deg, #7439ff, #a339ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    /* Pushes the text down to the middle */
+    margin-top: 20%;
+
+}
